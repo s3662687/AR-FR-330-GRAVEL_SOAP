@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<head>
+<!-- This is commented out -->
+<!-- The style tag is in CSS -->
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  background: #FFFFFF;
+  padding: 100px;
+}
+
+nav2 {
+  float: left;
+  width: 30%;
+  height: 600px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+  border-style: double;
+  border-width: 10px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 50%;
+  background-color: #ffffff;
+  height: 600px; /* only for demonstration, should be removed */
+}
+
+article2 {
+  float: left;
+  padding: 20px;
+  width: 100%;
+  background-color: #f1f1f1;
+  height: 600px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+
+
+h1 {
+  color: black;
+  font-size: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+div {
+    float: left; /* for IE */
+    display: table-row;
+}
+div * {
+    float: left; /* for IE */
+    display: table-cell;
+}
+
+p {
+  font-family: roboto, palatino, candara, arial, verdana;
+  font-size: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: black;
+}
+
+ul {
+  font-family: roboto, palatino, candara, arial, verdana;
+  font-size: 28px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: black;
+  text-align: center;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+</style>
+</head>
+<body>
+
+<!---->
+
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">Recipes</a></li>
+  <li><a href="#contact">Tutorials</a></li>
+  <li><a href="#about">Pantry</a></li>
+  <li><a href="#about">Contact</a></li>
+</ul>
+
+<section>
+  <article>
+    <h1>Home</h1>
+    <p>Here we can fill the webpage with content and make it look pretty
+    </p>
+
+  </article>
+
+  <nav>
+    
+  </nav>
+</section>
+
+<section>
+  
+  <article2>
+    <h2>Subtitle</h2>
+    <p style='margin-left: 10%'>more content here!</p>
+    
+  </article2>
+
+</section>
+
+<footer>
+  <p2>2020 | PRIVACY | CONTACT</p2>
+</footer>
+
+</body>
+</html>
