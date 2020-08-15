@@ -109,3 +109,21 @@ nav a {
 nav li:hover {
 	border-left: solid 3px #322d33;
 }
+
+/* table */
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+  
+td, th {
+	border: 2px solid #444343;
+	text-align: left;
+	padding: 8px;
+}
+  
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
