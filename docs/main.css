@@ -118,12 +118,18 @@ table {
 	width: 100%;
 }
   
-td, th {
+td {
 	border: 2px solid #444343;
 	text-align: left;
 	padding: 8px;
 }
   
+th {
+	border: 2px solid #444343;
+	text-align: center;
+	padding: 8px;
+}
+
 tr:nth-child(even) {
 	background-color: #dddddd;
 }
