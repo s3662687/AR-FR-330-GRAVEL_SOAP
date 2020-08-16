@@ -14,10 +14,6 @@ body {
 	margin: 0;
 }
 
-h3 {
-	color: #DC143C;
-}
-
 main {
 	background-color: #F2F3F0;
 	box-sizing: border-box;
@@ -74,6 +70,10 @@ header h1 {
 header h5 {
 	margin:0;
 	color: #faf9f7;
+}
+
+h2 {
+	color: #DC143C;
 }
 
 /* Nav box */
