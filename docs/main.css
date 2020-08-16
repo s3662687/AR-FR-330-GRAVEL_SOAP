@@ -31,6 +31,10 @@ img {
 	height: 200px;
 }
 
+h2 {
+	color: #c05657;
+}
+
 /* head */
 
 header {
@@ -72,9 +76,7 @@ header h5 {
 	color: #faf9f7;
 }
 
-h2 {
-	color: #DC143C;
-}
+
 
 /* Nav box */
 
