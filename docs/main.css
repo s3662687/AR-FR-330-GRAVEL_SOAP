@@ -17,15 +17,15 @@ body {
 main {
 	background-color: #F2F3F0;
 	box-sizing: border-box;
-	padding: 0 50px;
+	padding: 0 150px;
 	max-width: 70%;
 	width: 70%;
     margin: 0 5% 0 auto;
 	padding-bottom: 50px;
 	float: right;
 	
-	border-left: solid 3px #322d33;
-	border-right: solid 3px #322d33;
+	border-left: solid 5px #322d33;
+	border-right: solid 5px #322d33;
 }
 
 img {
@@ -34,6 +34,11 @@ img {
 
 h2 {
 	color: #c05657;
+}
+
+main p {
+	font-size: 16px;
+	max-width: 120ch;
 }
 
 /* global link styles */
