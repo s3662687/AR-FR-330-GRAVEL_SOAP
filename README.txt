@@ -18,6 +18,6 @@ Richard Nguyen
   s3789396  
   s3789396@student.rmit.edu.au
   
-Richard Nguyen
-  s3662687
-  s3662687@student.rmit.edu.au
+Robert Morel
+  s3841580
+  s3841580@student.rmit.edu.au
