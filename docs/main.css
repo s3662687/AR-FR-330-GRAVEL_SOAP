@@ -12,10 +12,13 @@ body {
 	height: 100%;
 	padding: 0;
 	margin: 0;
+	position: relative;
 }
 
 main {
 	width: 100%;
+	position: relative;
+
 }
 
 img {
@@ -32,7 +35,7 @@ main p {
 header {
 	  position: relative;
 
-	background-color: #494946;
+	background-color: #303031;
 	height: 100px;
 	width: 100%;
 	text-align: center;
@@ -109,6 +112,7 @@ header h6 {
 	display: flex;
   justify-content: center;
   align-items: center;
+	border: 3px solid #484845;
 
 }
 .nav-cont a{
@@ -130,8 +134,6 @@ div #search {
 }
 .nav-cont a:hover #search {
 	box-shadow: inset 0 0 0 150px #77393f;
-	
-	box-shadow: outset 0 0 0 15px #77393f;
 }
 
 div #resources {
@@ -195,10 +197,6 @@ footer {
 
 }
 
-
-
-
-
 .overlay {
   position: absolute;
   bottom: 100%;
@@ -226,4 +224,223 @@ header:hover .overlay {
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+
+
+.content-container {
+	min-height: 550px;
+	height:auto;
+	width: 100%;
+	table-layout: auto;
+	display: inline-grid;
+	
+	grid-template-columns: 15% 50% 17% 15% 3%;
+  	grid-template-rows: auto;
+}
+
+#left-margin {
+	min-height: 500px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: #f8f8f4;
+	
+}
+
+#content {
+	min-height: 500px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: #f1eee8;
+	
+	padding-bottom: 500px;
+	
+}
+
+#right-nav {
+	min-height: 500px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: #d8d4cb;
+
+
+}
+
+#right-margin {
+	min-height: 500px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: #f8f8f4;
+	
+}
+
+#right-strip {
+	height: auto;
+	min-height: 500px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: #7a3b41;
+	display: table-cell; 
+	
+}
+
+#child-content {
+	height: 100%;
+	width: 100% -80px;
+	padding: 30px 40px;
+
+}
+
+#child-RNav {
+	height: 100%;
+	width: 100%;
+	list-style-type: none;
+
+}
+
+#child-RNav ul {
+	  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+#child-RNav ul li {
+	border-top: 2px solid #7a3b41 ; 
+	margin-top: -1px; 
+}
+
+#child-RNav ul li:nth-child(1) {
+	border-top: none;
+}
+
+#child-RNav div {
+	padding: 12px; 
+
+}
+
+#child-RNav a {
+	text-decoration: none;
+}
+#child-RNav a:hover div{
+	border-left: 10px solid #7a3b41
+}
+
+
+
+
+footer
+{	
+	position:absolute;
+  	bottom: 0;
+  	width: 100%;
+	background-color:#303031;
+	padding:45px 0 20px;
+	font-size:15px;
+	line-height:24px;
+	color:#737373;
+	float: bottom;
+}
+.row {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex: nowrap row;
+}
+footer hr
+{
+	border-top-color:#bbb;
+	opacity:0.5;
+}
+footer h6
+{
+	color:#f8f8f4;
+	font-size:16px;
+	text-transform:uppercase;
+	margin-top:5px;
+	letter-spacing:2px;
+
+}
+
+footer h1 {
+	color:#f8f8f4;
+	font-size:26px;
+	text-transform:uppercase;
+	margin-top:5px;
+	letter-spacing:3px;
+	border-bottom: 1px solid #f8f8f4;
+}
+footer a
+{
+	color:#61615b;
+}
+footer a:hover
+{
+	color:#3366cc;
+	text-decoration:none;
+}
+.footer-links
+{
+	padding-left:0;
+	list-style:none;
+}
+.footer-links li
+{
+	display:block;
+}
+.footer-links a
+{
+	color:#737373;
+}
+.footer-links a:hover
+{
+	color:#3366cc;
+	text-decoration:none;
+}
+.footer-links.inline li
+{
+	display:inline-block;
+}
+
+
+
+
+
+tr {
+	display: inline-grid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
