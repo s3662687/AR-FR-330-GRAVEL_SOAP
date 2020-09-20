@@ -23,7 +23,12 @@
 			<img src="images/joseph-gonzalez-hTR1XPtTo_k-unsplash.jpg" alt="pretty picture">
 		<div id="desc-text">
 			<h2>Search Functions</h2>
-			<p> Discover recipes using keywords. Select the desired recipe from the filtered list to view the full recipe. </p>
+			<p> 
+				The search engine will allow user to search for specific recipes, this is done through a search bar. 
+				Users will also be able to use a filter to help find more specific recipes. 
+				To accomplish this a database is used to store all the recipes and to return result based on what the user entered. 
+				The search engine is global meaning that it will appear on multiple pages.  
+			</p>
 		</div>
 	</div>
 	
@@ -35,7 +40,13 @@
 			<div id="child-content">
 
 			<h2> User stories </h2>
-			<img src="images/exploreUserStories.png" alt="user stories">
+			<p>
+				Bob just came home from university and want to cook something for his dinner. 
+				He remembers hearing a recipe website called fruit bath from his colleagues and so he decides to try the website. 
+				Upon entering the site, he is greeted with the homepage which contain many recipes. He felt like having chicken for dinner, 
+				so he enters ‘chicken’ in the search bar and was then taken to the result page which contain chicken recipes. 
+				After browsing for a couple of minutes, he found a recipe he would like to try out and so he gets ready for cooking.
+			</p>
 
 			<h2> Design Diagrams </h2>
 			<img src="images/exploreContextDiagram.png" alt="context diagram">
@@ -44,14 +55,22 @@
 			<img src="images/explore.png" alt="mockup">
 
 			<h2> Explanation </h2>
-			The search feature allows users to enter keywords in a search bar to filter the recipe database for meals that meet the characteristics they’re looking for. Keywords highlight specific features of the recipe. For example, the keyword “Chicken” would find recipes including chicken, while the keyword “Vegetarian” would find only vegetarian recipes. 
-			<br><br>
-			Once searched, a selection of filtered recipes relevant to the keyword will be presented. Each recipe in this list will be a thumbnail of the dish accompanied by key information, such as estimated preparation time, price of ingredients, and its community rating. If a user selects a recipe from this list, the user will be taken to the full recipe page.
-			<br><br>
-			Users can also filter their searches by time, price, and rating. More than just recipes, the search feature can also be used to find other resources, such as tutorials and images.
-
+				<p>
+					The user may use the filter when searching for a recipe, by default the filter is not applied. 
+					The user enters can enter any words into the search bar a query will be sent to the database to find recipes that matches what the user entered as well as any filter that was selected(only applies if any were selected). 
+				        If there is a match the user will be taken to the result pages containing all recipes that matches what the user requested.   
+				</p>
 			<h2> Validation Criteria </h2>
-
+				<!--img of search working-->
+				<p>
+					If the user enters a word/words in search bar and the database contain recipes that matches the word that was typed then the user will be taken to 
+					the result page which will display all the recipe matching what the user typed.
+				</p>
+				<!--img of what happen if user make a mistake-->
+				<p>
+					If the user enters a word/words incorrectly or if the database don’t have any recipe that matches what being typed in then the user will be taken to 
+					a page which will display a message telling the user that we weren’t able to find any recipe that matches.
+				</p>
 			</div>
 		</div>
 		<div id="right-nav">
