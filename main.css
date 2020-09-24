@@ -1,0 +1,89 @@
+﻿body
+<style>
+
+html{	
+  	font-size: 16px;
+  	font-family:  Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 60%;
+  background-color: #ffffff;
+  height: 600px; 
+}
+
+h1 {
+  color: black;
+  font-size: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+p {
+  font-size: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    font-size: 28px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: black;
+    text-align: center;
+    font-family:  Helvetica, sans-serif;
+    }
+
+li {
+  float: left;
+}
+
+.reg {
+  float: right;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #6B8E23;
+}
+
+</style>
