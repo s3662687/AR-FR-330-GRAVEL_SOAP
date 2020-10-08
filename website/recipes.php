@@ -96,7 +96,7 @@ function getAverageRating()
         </p>
         <br>
         </article>
-    <div class="container">
+    <div class="main-container">
         <h2>Reviews</h2>
         <!--if statement to present a successful submission -->
         <?php if (isset($msg)) {
