@@ -49,7 +49,7 @@ function getAverageRating()
     <!-- Header navigation bar -->
     <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a class="active" href="recipes.html">Recipes</a></li>
+        <li><a class="active" href="recipes.php">Recipes</a></li>
         <li><a href="tutorials.html">Tutorials</a></li>
         <li><a href="pantry.html">Pantry</a></li>
         <li><a href="images.html">Images</a></li>
