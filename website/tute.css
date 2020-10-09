@@ -1,0 +1,152 @@
+﻿
+html{	
+  	font-size: 16px;
+  	/*font-family:  Helvetica, sans-serif;*/
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  padding-left: 60px;
+  width: 60%;
+  background-color: #ffffff;
+  font-family:  Helvetica, Arial, sans-serif;
+  font-size: 16px
+}
+
+footer {
+  float: left;
+  padding: 80px;
+  padding-left: 60px;
+  width: 60%;
+  background-color: #ffffff;
+  font-family:  Helvetica, Arial, sans-serif;
+  font-size: 16px
+}
+
+.grey {
+  padding: 20px;
+  padding-left: 60px;
+  width: 96%;
+  background-color:rgb(231, 231, 231);
+  font-family:  Helvetica, Arial, sans-serif;
+  font-size: 16px
+}
+
+h1 {
+  color: rgb(44, 44, 44);
+  font-size: 40px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+h2 {
+  color: black;
+  text-align: center;
+  font-size: 40px;
+  padding-right: 200px;
+  padding-left: 200px;
+}
+
+h3 {
+  color: rgb(19, 19, 19);
+  font-size: 30px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+p {
+  font-size: 25px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    font-size: 28px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: black;
+    text-align: center;
+    font-family:  Helvetica, sans-serif;
+}
+
+.light {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: rgb(231, 231, 231);
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  font-size: 28px;
+  padding-right: 20px;
+  padding-left: 20px;
+  color: green;
+  text-align: center;
+  font-family:  Helvetica, sans-serif;
+}
+
+.tute {
+  float: left;
+  padding: 20px;
+  padding-left: 60px;
+  width: 64%;
+  background-color: #ffffff;
+  font-family:  Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+.tutehome {
+  float: left;
+  padding: 20px;
+  padding-left: 60px;
+  width: 86%;
+  background-color: #ffffff;
+  font-family:  Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+.reg {
+  float: right;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #292929;
+}
+
+.active {
+  background-color: #6B8E23;
+}
