@@ -1,0 +1,430 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+html{	
+  	font-size: 16px;
+  	font-family:  Helvetica, sans-serif;
+}
+
+body {
+	background-color: #f8f8f4;
+	width: 100%;
+	height: 100%;
+	padding: 0;
+	margin: 0;
+	position: relative;
+}
+
+main {
+	width: 100%;
+	position: relative;
+
+}
+
+img {
+	height: 200px;
+}
+
+main p {
+	font-size: 16px;
+	max-width: 120ch;
+}
+
+/* head */
+
+header {
+	  position: relative;
+
+	background-color: #303031;
+	height: 100px;
+	width: 100%;
+	text-align: center;
+	margin: 0;
+	top: 0;
+	left: 0;
+	padding-top: 15px;
+	padding-bottom: 0px;
+}
+
+
+header h1 {
+	color: #d7d3cb;
+	height: 65px;
+	margin: 0;
+	font-size: 3em;
+}
+
+header h6 {
+	background-color: #7a3b41;
+	height: 35px;
+	margin: 0;
+	font-size: 1em;
+	padding: 0;
+	line-height: 30px;
+}
+
+.desc {
+	background-color: #efdcd6;
+	width: 100%;
+	padding: 25px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	min-height: 300px;
+}
+
+
+.desc img {
+	width: 20%;
+	max-width: 250px;
+	height: auto;
+}
+
+.desc #desc-text {
+		width: 50%;
+}
+
+.desc h2 {
+	font-size: 2em;
+
+}
+
+.desc p {
+	max-width: 85ch;
+
+	font-size: 1.5em;
+
+}
+
+.nav-cont {
+	margin: 60px;
+	background-color: #f8f8f4;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-content: space-around;
+	
+}
+.nav-cont div {
+	width: 290px;
+	height: 290px;
+	margin: 60px;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	border: 3px solid #484845;
+
+}
+.nav-cont a{
+	text-decoration: none;
+	color: #f8f8f4;
+	font-family: "ubuntu-mono";
+	font-weight: bold;
+	font-size: 2em;
+	
+}
+
+
+	
+
+
+div #search {
+	background-image: url("images/bailey-heedick-WOrgNVcptD8-unsplash.jpg");
+	background-size: cover;	
+}
+.nav-cont a:hover #search {
+	box-shadow: inset 0 0 0 150px #77393f;
+}
+
+div #resources {
+	background-image: url("images/foodism360-Gwak7T9evEk-unsplash.jpg");
+	background-size: cover;
+}
+.nav-cont a:hover #resources {
+	box-shadow: inset 0 0 0 150px #7a756d;
+}
+
+div #tutorials {
+	background-image: url("images/harshal-s-hirve-2GiRcLP_jkI-unsplash.jpg");
+	background-size: cover;
+}
+.nav-cont a:hover #tutorials {
+	box-shadow: inset 0 0 0 150px #76775c;
+}
+
+div #member {
+	background-image: url("images/jan-huber-KBzQXkXVXv4-unsplash.jpg");
+	background-size: cover;
+}
+.nav-cont a:hover #member {
+	box-shadow: inset 0 0 0 150px #6a7e82;
+}
+
+div #pantry {
+	background-image: url("images/kateryna-moskalova--SCfP2RB7Zc-unsplash.jpg");
+	background-size: cover;
+}
+.nav-cont a:hover #pantry {
+	box-shadow: inset 0 0 0 150px #b79646;
+}
+
+div #plan {
+	background-image: url("images/lars-blankers-pmS8XSz5NU0-unsplash.jpg");
+	background-size: cover;
+}
+.nav-cont a:hover #plan {
+	box-shadow: inset 0 0 0 150px #867a68;
+}
+
+div #tech {
+	background-image: url("images/midmidma-Abef-cCJMiU-unsplash.jpg");
+	background-size: cover;
+}
+.nav-cont a:hover #tech {
+	box-shadow: inset 0 0 0 150px #6e7c63;
+}
+
+div #docs {
+	background-image: url("images/tom-hermans-T2SF2a5U8p4-unsplash.jpg");
+	background-size: cover;
+}
+.nav-cont a:hover #docs {
+	box-shadow: inset 0 0 0 150px #375f64;
+}
+
+footer {
+	background-color: #494946;
+
+}
+
+.overlay {
+  position: absolute;
+  bottom: 100%;
+  left: 0;
+  right: 0;
+  background-color: #e7c6c1;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: .2s ease;
+}
+
+header:hover .overlay {
+  bottom: 0;
+  height: 100%;
+}
+
+.text {
+  white-space: nowrap; 
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  overflow: hidden;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+.content-container {
+	min-height: 550px;
+	height:auto;
+	width: 100%;
+	table-layout: auto;
+	display: inline-grid;
+	
+	grid-template-columns: 15% 50% 17% 15% 3%;
+  	grid-template-rows: auto;
+}
+
+#left-margin {
+	min-height: 500px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: #f8f8f4;
+	
+}
+
+#content {
+	min-height: 500px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: #f1eee8;
+	
+	padding-bottom: 500px;
+	
+}
+
+#right-nav {
+	min-height: 500px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: #d8d4cb;
+
+
+}
+
+#right-margin {
+	min-height: 500px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: #f8f8f4;
+	
+}
+
+#right-strip {
+	height: auto;
+	min-height: 500px;
+	margin: 0;
+	padding: 0;
+	float: left;
+	background-color: #7a3b41;
+	display: table-cell; 
+	
+}
+
+#child-content {
+	height: 100%;
+	width: 100% -80px;
+	padding: 30px 40px;
+
+}
+
+#child-RNav {
+	height: 100%;
+	width: 100%;
+	list-style-type: none;
+
+}
+
+#child-RNav ul {
+	  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
+
+#child-RNav ul li {
+	border-top: 2px solid #7a3b41 ; 
+	margin-top: -1px; 
+}
+
+#child-RNav ul li:nth-child(1) {
+	border-top: none;
+}
+
+#child-RNav div {
+	padding: 12px; 
+
+}
+
+#child-RNav a {
+	text-decoration: none;
+}
+#child-RNav a:hover div{
+	border-left: 10px solid #7a3b41
+}
+
+
+
+
+footer
+{	
+	position:absolute;
+  	bottom: 0;
+  	width: 100%;
+	background-color:#303031;
+	padding:45px 0 20px;
+	font-size:15px;
+	line-height:24px;
+	color:#737373;
+	float: bottom;
+}
+.row {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	flex: nowrap row;
+}
+footer hr
+{
+	border-top-color:#bbb;
+	opacity:0.5;
+}
+footer h6
+{
+	color:#f8f8f4;
+	font-size:16px;
+	text-transform:uppercase;
+	margin-top:5px;
+	letter-spacing:2px;
+
+}
+
+footer h1 {
+	color:#f8f8f4;
+	font-size:26px;
+	text-transform:uppercase;
+	margin-top:5px;
+	letter-spacing:3px;
+	border-bottom: 1px solid #f8f8f4;
+}
+footer a
+{
+	color:#61615b;
+}
+footer a:hover
+{
+	color:#3366cc;
+	text-decoration:none;
+}
+.footer-links
+{
+	padding-left:0;
+	list-style:none;
+}
+.footer-links li
+{
+	display:block;
+}
+.footer-links a
+{
+	color:#737373;
+}
+.footer-links a:hover
+{
+	color:#3366cc;
+	text-decoration:none;
+}
+.footer-links.inline li
+{
+	display:inline-block;
+}
+
+
+
+table {
+	font-family: arial, sans-serif;
+	border-collapse: collapse;
+	width: 100%;
+}
+  
+td {
+	border: 2px solid #444343;
+	text-align: left;
+	padding: 8px;
+}
+  
+th {
+	border: 2px solid #444343;
+	text-align: center;
+	padding: 8px;
+}
