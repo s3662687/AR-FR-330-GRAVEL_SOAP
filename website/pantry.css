@@ -1,0 +1,56 @@
+
+.grid-box{
+  display: grid;
+  grid-template-columns: minmax(auto);
+  grid-template-rows: minmax(auto);
+  grid-template-areas: 
+    "categories ingredients pick-list ";
+  margin:0;
+} 
+.grid-container-1{
+  grid-area: categories;
+}
+
+.grid-container-2{
+  grid-area: ingredients;
+}
+.grid-container-3{
+    grid-area: pick-list;
+}
+
+/*end of grid Layout */
+
+.categories, .ingredients, .pick-list{
+    margin-left:120px;
+    margin-top:100px;   
+    border-style: solid; 
+    border-color: #000000;
+    border-width: 1px;
+    width:400px;
+    height:538px;
+}
+.choice-box{
+    width:100%;
+    padding:10px; 
+    text-align: center;  
+    border-width: 1px;
+    border-style: solid; 
+    border-color: #000000;;
+}
+button{
+margin-top: 60px;
+margin-left: 300px;
+font-size: 15px!important;
+width:30%; 
+}
+
+.description{
+  position: absolute;
+  margin-left: 100px;
+  margin-top:50px;
+}
+
+h1{
+  margin:0;
+  margin-top:50px;
+}
