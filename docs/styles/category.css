@@ -1,0 +1,24 @@
+.heading {
+    text-align: center;
+    font-style: italic;
+    font-size: 2em;
+}
+
+.category-box {
+    width: 65%;
+    background-color: aqua;
+    margin: auto;
+}
+
+.category-box .more-box {
+    margin: auto;
+    height: 150px;
+    width: 80%;
+    background-color: rgb(255, 0, 0);
+}
+
+.category-box .show-more-button {
+    bottom: 0%;
+    align-items: center;
+    vertical-align: middle;
+}

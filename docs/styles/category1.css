@@ -1,0 +1,37 @@
+#main_image {
+    width: 300px;
+    height: 200px;
+    float: left;
+}
+#intro {
+    float: right;
+}
+
+.image {
+    grid-area: image;
+    position: relative;
+    background-color: #ffffff;
+  }
+  
+.intro_text {
+    grid-area: intro_text;
+    background-color: #ffffff;
+  }
+
+.wrapper {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: auto;
+    grid-template-areas:
+        "image intro_text";
+    background-color: #ffffff;
+    
+    width: 100%;
+    height: fit-content;
+  }
+
+  .box {
+    color: #000000;
+    border-radius: 0px;
+    padding: 0px 0px 20px;
+  }

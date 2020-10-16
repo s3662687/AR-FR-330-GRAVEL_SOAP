@@ -1,0 +1,107 @@
+[
+    {
+        "id":"001",
+        "image":"https://yonderbound.com/blog/wp-content/uploads/2016/02/Italy-dish.jpg",
+        "region":"Italy",
+        "occasion":"null",
+        "intro":"Italian cuisine started to form after the fall of the Roman Empire, when different cities began to separate and form their own traditions. Many different types of bread and pasta were made, and there was a variation in cooking techniques and preparation."
+    },
+    {
+        "id":"002",
+        "image":"https://yonderbound.com/blog/wp-content/uploads/2016/02/Greece-dish.jpg",
+        "region":"Greece",
+        "occasion":"null",
+        "intro":"Greek cuisine is the cuisine of Greece and the Greek diaspora. In common with many other cuisines of the Mediterranean, it is founded on the triad of wheat, olive oil, and wine. It uses vegetables, olive oil, grains, fish, and meat, including pork, poultry, veal and beef, lamb, rabbit, and goat."
+    },
+    {
+        "id":"003",
+        "image":"https://yonderbound.com/blog/wp-content/uploads/2016/02/Philippines-dish.jpg",
+        "region":"Philippines",
+        "occasion":"null",
+        "intro":"Filipino cuisine is steadily gaining popularity around the world for its spice-packed flavorful dishes. Over thousands of years, other countries’ occupation in the Philippines have influenced the Filipino food we know today. Filipino cuisine is constantly growing and changing –– from the their first encounter with the Chinese, who introduced the small group of islands in the Pacific to rice, soy sauce, and the egg roll (aka future lumpia), siu mai (hello pockets!) to their interaction with the Spanish, who introduced cutlery, tomatoes and cattle-raising, and the Americans who brought canned meats and kitchen appliances. While the cuisine is always evolving, traditional Filipino culture and cooking are still represented in each dish, some even with a hint of peaceful resistance."
+    },
+    {
+        "id":"004",
+        "image":"https://yonderbound.com/blog/wp-content/uploads/2016/02/Thailand-dish.jpg",
+        "region":"Thailand",
+        "occasion":"null",
+        "intro":"Thai food is famous all over the world. This unique cuisine is a blend of centuries-old Eastern and Western influences. The key component of every dish is harmony. The flavours and the ingredients need to be harmoniously combined for a Thai dish to be authentic"
+    },
+    {
+        "id":"005",
+        "image":"https://yonderbound.com/blog/wp-content/uploads/2016/02/Japan-dish.jpg",
+        "region":"Japan",
+        "occasion":"null",
+        "intro":"The traditional cuisine of Japan is based on rice with miso soup and other dishes; there is an emphasis on seasonal ingredients. Side dishes often consist of fish, pickled vegetables, and vegetables cooked in broth."
+    },
+    {
+        "id":"006",
+        "image":"https://yonderbound.com/blog/wp-content/uploads/2016/02/India-dish.jpg",
+        "region":"India",
+        "occasion":"null",
+        "intro":"Indian cuisine consists of a variety of regional and traditional cuisines native to the Indian subcontinent. Given the diversity in soil, climate, culture, ethnic groups, and occupations, these cuisines vary substantially and use locally available spices, herbs, vegetables, and fruits."
+    },
+    {
+        "id":"007",
+        "image":"https://yonderbound.com/blog/wp-content/uploads/2016/02/China-dish.jpg",
+        "region":"China",
+        "occasion":"null",
+        "intro":"Chinese cuisine (Chinese dishes) originated from different regions of China and has become widespread in many other parts of the world. Regional cultural differences vary greatly amongst the different regions of China, giving rise to the different styles of food. There are eight main regional cuisines, and they are: Anhui cuisine (Hui Cai), Cantonese cuisine (Yue Cai), Fujian cuisine (Min Cai), Hunan cuisine (Xiang Cai), Jiangsu cuisine (Su Cai or Yang Cai), Shandong cuisine (Lu Cai), Szechuan cuisine (Chuan Cai), Zhejiang cuisine (Zhe Cai)."
+    },
+    {
+        "id":"008",
+        "image":"https://yonderbound.com/blog/wp-content/uploads/2016/02/Spain-dish.jpg",
+        "region":"Spain",
+        "occasion":"null",
+        "intro":"Traditional Spanish cuisine is down-to-earth, uncomplicated food that is based on the ingredients available locally or the crops grown regionally. Mountains run through Spain in several directions, acting as natural barriers to communication and making transportation difficult until the last half of the 20th century."
+    },
+    {
+        "id":"009",
+        "image":"https://yonderbound.com/blog/wp-content/uploads/2016/02/France-dish.jpg",
+        "region":"France",
+        "occasion":"null",
+        "intro":"French food and cooking are generally considered the backbone and underpinning of many cuisines across the Western world. The influence and recognition of classical French cooking techniques are legendary. This status is precisely why French cuisine can be intimidating for a beginner to learn."
+    },
+    {
+        "id":"010",
+        "image":"https://www.primalpalate.com/wp-content/uploads/2014/12/xmas-0979-800x533.jpg",
+        "region":"null",
+        "occasion":"Xmas",
+        "intro":"The first recipe to resemble the Christmas pudding we know today appeared in the 1830s, as a combination of flour, fruit, sugar and spice, with plenty of suet in as a nod to the original beef shin. The tradition for making the mixture on the first Sunday of advent – known as Stir-up Sunday – came soon after."
+    },
+    {
+        "id":"011",
+        "image":"https://cdn.kqed.org/wp-content/uploads/sites/24/2018/12/duckTheMorris_crwsc_10767-rev-800x533.jpg",
+        "region":"null",
+        "occasion":"New year",
+        "intro":"On New Year’s Eve and New Year’s Day, we’re really toasting to a few different events: the triumph of a good year, one for the books; the relief of a bad year, finally finished; and the hopes and dreams attached to the brand new 12 months that are about to unfold, hopefully in spectacular fashion. Around the world, foods on the holiday table are symbolic, laden with eaters’ wishes for the new year. Many traditional dishes appear because they’re thought to bestow happiness, prosperity, health, sweetness, and luck."
+    },
+    {
+        "id":"012",
+        "image":"https://1v1d1e1lmiki1lgcvx32p49h8fe-wpengine.netdna-ssl.com/wp-content/uploads/2020/01/1579758367-013_General_Chao_credit-Anna_Kucera-1-e1579826939708-800x533.jpg",
+        "region":"null",
+        "occasion":"Lunal new year",
+        "intro":""
+    },
+    {
+        "id":"013",
+        "image":"https://dluxe-magazine.co.uk/wp-content/uploads/2019/01/Feb-SpecialsValentines-Beetroot-Tortelloni-JPEG-min2-800x533.jpg",
+        "region":"null",
+        "occasion":"Valentine",
+        "intro":"When asked which food they associate with Valentine’s Day, most people think of chocolates. However, there are a few more foods besides those sweet treats that have traditionally been used to celebrate both love and Valentine’s Day."
+    },
+    {
+        "id":"014",
+        "image":"https://lh3.googleusercontent.com/proxy/hgrYQDEN6JSYuIAl_oPfCoyRN604ocb7CKOx4v6tuz2vTHtuvls30IuqlOcTettwtJEkcygKeT79bFsaizzSHLofUvgsk3rH2kyjoZIPmqVK5ny3a_lgjCQNiipvgfPr1q7MG07svWTUC_v3VOoGa9xppMBHDQ",
+        "region":"null",
+        "occasion":"Birthday",
+        "intro":"The Romans baked the first birthday cakes. They made cakes of flour, nuts, yeast and honey to celebrate weddings and the occasional 50th birthday (only if the birthday boy was a famous citizen, and women’s birthdays weren’t celebrated anywhere until the 12th century)."
+    },
+    {
+        "id":"015",
+        "image":"https://www.styleevents.com.au/wp-content/uploads/2020/07/74638443_3158262500854723_7554265492710490112_o-800x533.jpg",
+        "region":"null",
+        "occasion":"Thanksgiving",
+        "intro":"According to what traditionally is known as The First Thanksgiving,\" the 1621 feast between the Pilgrims and the Wampanoag at Plymouth Colony contained waterfowl, venison, lobster, clams, berries, fruit, pumpkin, and squash.\""
+    }
+]
