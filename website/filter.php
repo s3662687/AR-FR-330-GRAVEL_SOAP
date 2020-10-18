@@ -1,11 +1,11 @@
 <?php
 require_once 'db_connection.php';
-
+// this go along with result.php
 if (isset($_POST['action'])) {
     $query = 'SELECT * FROM recipe_proto WHERE Recipe != ""'; // select recipe that exists
 
     if (isset($_POST["keyword"]) && $_POST["keyword"] != '') {
-        // $output = '<p>works</p>';
+        
         $key = trim($_POST["keyword"]);
         $words = explode(" ", $key);
 
