@@ -25,6 +25,10 @@ img {
 	height: 200px;
 }
 
+.outcome {
+	height: 600px;
+}
+
 main p {
 	font-size: 16px;
 	max-width: 120ch;
