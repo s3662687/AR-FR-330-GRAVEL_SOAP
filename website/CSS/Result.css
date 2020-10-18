@@ -1,0 +1,282 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    position: relative;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 46px;
+}
+
+
+/* Top Navigation */
+
+/* header {
+    background-color: #65634A;
+}
+
+#topnav {
+    width: 100%;
+    display: inline-block;
+}
+
+#topnav ul {
+    list-style-type: none;
+}
+
+#topnav li {
+    float: left;
+}
+
+#topnav a {
+    text-align: center;
+    display: block;
+    font-size: 18px;
+    padding: 20px;
+    text-decoration: none;
+    color: #E2E3DE;
+}
+
+#topnav li:last-child {
+    float: right;
+}
+
+#topnav a:hover {
+    background-color: #BF9A53;
+} */
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; 
+    position: sticky;
+    top: 0;
+    font-size: 28px;
+    padding-right: 20px;
+    padding-left: 20px;
+    color: black;
+    text-align: center;
+    font-family:  Helvetica, sans-serif;
+    }
+
+li {
+  float: left;
+}
+
+.reg {
+  float: right;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+/* bottom nav */
+
+footer {
+    width: 100%;
+    background-color: #737373;
+    font-size: 16px;
+    position: absolute;
+    bottom: 0px;
+}
+
+footer p {
+    display: inline-block;
+    margin: 14px;
+}
+
+#botnav {
+    float: right;
+}
+
+#botnav ul {
+    list-style-type: none;
+}
+
+#botnav li {
+    float: left;
+    margin: 14px 7px;
+}
+
+#botnav a {
+    color: #E2E3DE;
+    text-decoration: none;
+}
+
+/* Search */
+
+.contain {
+    background-image: url(../imgs/table.jpg);
+    background-size: 100% 100%;
+}
+form {
+    display: inline-block;
+    width: 100%;
+    margin: 100px 0px;
+    text-align: center;
+}
+
+input[type=text] {
+    width: 30%;
+    font-size: 16px;
+    padding: 17px;
+    border: 1px solid gray;
+}
+
+.submit {
+    font-size: 16px;
+    padding: 17px;
+    font-weight: bold;
+    background-color: #BF9A53;
+    margin-left: -5px;
+    border: 1px solid gray;
+    cursor: pointer;
+}
+
+/* recipe rows */
+
+.recipe {
+    width: 100%;
+    background-color: #ffffff;
+    border-bottom: 1px solid gray;
+    vertical-align: top;
+}
+
+.recipe img {
+    display: inline-block;
+    height: 240px;
+    width: 240px;
+    margin: 20px;
+}
+
+.recipe_info {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px;
+    height: 240px;
+    width: 800px;
+}
+
+.recipe_info h1 {
+    font-size: 20px;
+}
+
+.recipe_desc {
+    font-size: 16px;
+}
+
+.misc {
+    display: inline-block;
+    height: 20px;
+    width: 100%;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+.misc p {
+    float: left;
+    width: 20%;
+    margin-right: 10px;
+}
+
+/* if user cant find recipes */
+
+.no_recipe {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+}
+
+.no_recipe p {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* filter */
+.filter {
+    padding: 10px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 1px solid gray;;
+    
+}
+
+.filter_container {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.filter p {
+    font-weight: bold;
+}
+
+.filterbtn {
+    margin: 5px 1px 0px 0px;
+    padding: 5px 0px 5px 5px;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+    border: 1px solid gray;
+}
+
+.apply{
+    margin-left: 5px;
+    padding: 5px;
+    display: block;
+    background-color: #BF9A53;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+}
+
+.filter_container {
+    width: 150px;
+}
+
+.selectable {
+    padding-right: 5px; 
+    width: 100%;
+    text-align: right;
+    font-size: 14px;
+    border: 1px solid gray;
+    border-top: none;
+    background-color: #F5F5F5;
+}
+
+.selectable input[type=checkbox], label {
+    vertical-align: middle;
+    margin: 5px 0px;
+}
+.options {
+    visibility: hidden;
+}
+
+.visibility {
+    visibility: visible;
+}
