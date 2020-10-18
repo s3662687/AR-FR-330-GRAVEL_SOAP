@@ -22,11 +22,11 @@ main {
 }
 
 img {
-	height: 200px;
+	height: 300px;
 }
 
 .outcome {
-	height: 600px;
+	height: 450px;
 }
 
 main p {
@@ -298,7 +298,7 @@ header:hover .overlay {
 
 #child-content {
 	height: 100%;
-	width: 100% -80px;
+	width: 100%;
 	padding: 30px 40px;
 
 }
