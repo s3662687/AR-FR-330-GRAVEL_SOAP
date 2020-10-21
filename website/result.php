@@ -94,28 +94,28 @@ include 'db_connection.php';
                 <button onclick="dropdown('rating_fil')" class="filterbtn">Ratings</button>
                 <div id="rating_fil" class="options">
                     <div class="selectable">
-                        <label for="0">0/5</label>
-                        <input type="checkbox" name="rating[]" value="0" form="search" class="selector rating" <?php IsChecked('rating[]', '0') ?>>
+                        <label for="0">0star or more</label>
+                        <input type="checkbox" name="rating[]" value="0" form="search" class="selector rating" onchange="checkboxes('rating[]','0')" <?php IsChecked('rating[]', '0') ?>>
                     </div>
                     <div class="selectable">
-                        <label for="1">1/5</label>
-                        <input type="checkbox" name="rating[]" value="1" form="search" class="selector rating" <?php IsChecked('rating[]', '1') ?>>
+                        <label for="1">1star or more</label>
+                        <input type="checkbox" name="rating[]" value="1" form="search" class="selector rating" onchange="checkboxes('rating[]','1')" <?php IsChecked('rating[]', '1') ?>>
                     </div>
                     <div class="selectable">
-                        <label for="2">2/5</label>
-                        <input type="checkbox" name="rating[]" value="2" form="search" class="selector rating" <?php IsChecked('rating[]', '2') ?>>
+                        <label for="2">2star or more</label>
+                        <input type="checkbox" name="rating[]" value="2" form="search" class="selector rating" onchange="checkboxes('rating[]','2')" <?php IsChecked('rating[]', '2') ?>>
                     </div>
                     <div class="selectable">
-                        <label for="3">3/5</label>
-                        <input type="checkbox" name="rating[]" value="3" form="search" class="selector rating" <?php IsChecked('rating[]', '3') ?>>
+                        <label for="3">3star or more</label>
+                        <input type="checkbox" name="rating[]" value="3" form="search" class="selector rating" onchange="checkboxes('rating[]','3')" <?php IsChecked('rating[]', '3') ?>>
                     </div>
                     <div class="selectable">
-                        <label for="4">4/5</label>
-                        <input type="checkbox" name="rating[]" value="4" form="search" class="selector rating" <?php IsChecked('rating[]', '4') ?>>
+                        <label for="4">4star or more</label>
+                        <input type="checkbox" name="rating[]" value="4" form="search" class="selector rating" onchange="checkboxes('rating[]','4')" <?php IsChecked('rating[]', '4') ?>>
                     </div>
                     <div class="selectable">
-                        <label for="5">5/5</label>
-                        <input type="checkbox" name="rating[]" value="5" form="search" class="selector rating" <?php IsChecked('rating[]', '5') ?>>
+                        <label for="5">5star or more</label>
+                        <input type="checkbox" name="rating[]" value="5" form="search" class="selector rating" onchange="checkboxes('rating[]','5')" <?php IsChecked('rating[]', '5') ?>>
                     </div>
                 </div>
             </div>
@@ -123,26 +123,28 @@ include 'db_connection.php';
 
         <div id='result'>
 
-            <?php
-            function IsChecked($chkname, $value)
-            {
-                if (!empty($_GET[$chkname])) {
-                    foreach ($_GET[$chkname] as $chkval) {
-                        if ($chkval == $value) {
-                            // return true;
-                            echo 'checked';
-                        }
-                    }
-                }
-                echo '';
-            }
-            ?>
+
         </div>
     </main>
 
     <footer>
         <p>©FruitBath 2020</p>
     </footer>
+
+    <?php
+    function IsChecked($chkname, $value)
+    {
+        if (!empty($_GET[$chkname])) {
+            foreach ($_GET[$chkname] as $chkval) {
+                if ($chkval == $value) {
+                    // return true;
+                    echo 'checked';
+                }
+            }
+        }
+        echo '';
+    }
+    ?>
 
     <!-- jQuery and Ajax -->
     <script type='text/javascript'>
@@ -167,11 +169,16 @@ include 'db_connection.php';
                 filter_data();
             })
 
+            $('#Search_bar').click(function() {
+                filter_data();
+            })
+
             function filter_data() {
                 var action = 'data';
                 var keyword = $('#Search_bar').val()
                 var price = filter('price');
                 var time = filter('time');
+                var rating = filter('rating')
 
                 $.ajax({
                     url: 'filter.php', //send all variable(below) to this php file
@@ -180,7 +187,8 @@ include 'db_connection.php';
                         action: action,
                         keyword: keyword,
                         price: price,
-                        time: time
+                        time: time,
+                        rating: rating
                     },
 
                     // success is a inbult method of ajax/jquery, basically return the result form php file and print it on the dic with the id
