@@ -1,15 +1,14 @@
 <?php
 require_once 'db_connection.php';
-// this go along with result.php
+
 if (isset($_POST['action'])) {
+    $output = '';
     $query = 'SELECT * FROM recipe_proto WHERE Recipe != ""'; // select recipe that exists
 
-    if (isset($_POST["keyword"]) && $_POST["keyword"] != '') {
-        
+    if (isset($_POST["keyword"]) && !empty($_POST["keyword"])) {
         $key = trim($_POST["keyword"]);
         $words = explode(" ", $key);
 
-        $output = "keyword works";
         foreach ($words as $keywords) {
             $query .= " AND Keyword LIKE '%" . $keywords . "%'";
         }
@@ -24,13 +23,18 @@ if (isset($_POST['action'])) {
             $query .= " AND Time <= " . $time_filter;
         }
 
+        if (isset($_POST['rating'])) {
+            $rate_filter = implode("','", $_POST['rating']);
+            $query .= " AND Rating >= " . $rate_filter;
+        }
+
         // OpenCon() is a function from db_connection php file
         $conn = OpenCon();
 
         //running the query
         $result = $conn->query($query);
 
-        $output = '';
+
         $num_rows = $result->num_rows;
 
         if ($num_rows <= 0) {
@@ -58,5 +62,7 @@ if (isset($_POST['action'])) {
         $output .= '<div class="no_recipe">
                          <p>Unable to find recipes matching "' . $_POST["keyword"] . '".</p>
                     </div>';
+        echo $output;
     }
 }
+
